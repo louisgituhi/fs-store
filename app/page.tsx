@@ -60,7 +60,6 @@ export default function Dashboard() {
                         Total Filings
                       </CardTitle>
                       <FileInput className="h-4 w-4 text-muted-foreground" />
-                      {/* <DollarSign className="h-4 w-4 text-muted-foreground" /> */}
                     </CardHeader>
                     <CardContent>
                       <div className="text-2xl font-bold">+820</div>
@@ -89,7 +88,6 @@ export default function Dashboard() {
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                       <CardTitle className="text-sm font-medium">Business Accounts</CardTitle>
                       <BriefcaseBusiness className="h-4 w-4 text-muted-foreground" />
-                      {/* <CreditCard className="h-4 w-4 text-muted-foreground" /> */}
                     </CardHeader>
                     <CardContent>
                       <div className="text-2xl font-bold">+74</div>
@@ -103,7 +101,6 @@ export default function Dashboard() {
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                       <CardTitle className="text-sm font-medium">Retrievals</CardTitle>
                       <Repeat2 className="h-4 w-4 text-muted-foreground" />
-                      {/* <Activity className="h-4 w-4 text-muted-foreground" /> */}
                     </CardHeader>
                     <CardContent>
                       <div className="text-2xl font-bold">+200</div>
@@ -267,9 +264,9 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Louis Gituhi
                         </p>
-                        <p className="text-sm text-muted-foreground">
+                        {/* <p className="text-sm text-muted-foreground">
                           Louis.Gituhi@kingdombankltd.co.ke
-                        </p>
+                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+24</div>
                     </div>
@@ -282,9 +279,9 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Kelvin Dan Watto
                         </p>
-                        <p className="text-sm text-muted-foreground">
+                        {/* <p className="text-sm text-muted-foreground">
                           Kelvin.Watto@kingdombankltd.co.ke
-                        </p>
+                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+39</div>
                     </div>
@@ -297,9 +294,9 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Maureen Mbuvi
                         </p>
-                        <p className="text-sm text-muted-foreground">
+                        {/* <p className="text-sm text-muted-foreground">
                           Maureen.Mbuvi@kingdombankltd.co.ke
-                        </p>
+                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+12</div>
                     </div>
@@ -312,9 +309,9 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Samuel Achando
                         </p>
-                        <p className="text-sm text-muted-foreground">
+                        {/* <p className="text-sm text-muted-foreground">
                           Samuel.Achando@kingdombankltd.co.ke
-                        </p>
+                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+9</div>
                     </div>
@@ -327,9 +324,9 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Sebastian Gachau
                         </p>
-                        <p className="text-sm text-muted-foreground">
+                        {/* <p className="text-sm text-muted-foreground">
                           Sebastian.Gachau@@kingdombankltd.co.ke
-                        </p>
+                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+11</div>
                     </div>
