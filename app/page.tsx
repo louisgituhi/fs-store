@@ -149,9 +149,6 @@ export default function Dashboard() {
                         <TableRow>
                           <TableCell>
                             <div className="font-medium">Kevin Johnson</div>
-                            {/* <div className="hidden text-sm text-muted-foreground md:inline">
-                              liam@example.com
-                            </div> */}
                           </TableCell>
                           <TableCell className="hidden xl:table-column">
                             Sale
@@ -169,9 +166,6 @@ export default function Dashboard() {
                         <TableRow>
                           <TableCell>
                             <div className="font-medium">Olivia Smith</div>
-                            {/* <div className="hidden text-sm text-muted-foreground md:inline">
-                              olivia@example.com
-                            </div> */}
                           </TableCell>
                           <TableCell className="hidden xl:table-column">
                             Refund
@@ -189,9 +183,6 @@ export default function Dashboard() {
                         <TableRow>
                           <TableCell>
                             <div className="font-medium">Noah Williams</div>
-                            {/* <div className="hidden text-sm text-muted-foreground md:inline">
-                              noah@example.com
-                            </div> */}
                           </TableCell>
                           <TableCell className="hidden xl:table-column">
                             Subscription
@@ -209,9 +200,6 @@ export default function Dashboard() {
                         <TableRow>
                           <TableCell>
                             <div className="font-medium">Emma Brown</div>
-                            {/* <div className="hidden text-sm text-muted-foreground md:inline">
-                              emma@example.com
-                            </div> */}
                           </TableCell>
                           <TableCell className="hidden xl:table-column">
                             Sale
@@ -229,9 +217,6 @@ export default function Dashboard() {
                         <TableRow>
                           <TableCell>
                             <div className="font-medium">Liam Johnson</div>
-                            {/* <div className="hidden text-sm text-muted-foreground md:inline">
-                              liam@example.com
-                            </div> */}
                           </TableCell>
                           <TableCell className="hidden xl:table-column">
                             Sale
@@ -264,9 +249,6 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Louis Gituhi
                         </p>
-                        {/* <p className="text-sm text-muted-foreground">
-                          Louis.Gituhi@kingdombankltd.co.ke
-                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+24</div>
                     </div>
@@ -279,9 +261,6 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Kelvin Dan Watto
                         </p>
-                        {/* <p className="text-sm text-muted-foreground">
-                          Kelvin.Watto@kingdombankltd.co.ke
-                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+39</div>
                     </div>
@@ -294,9 +273,6 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Maureen Mbuvi
                         </p>
-                        {/* <p className="text-sm text-muted-foreground">
-                          Maureen.Mbuvi@kingdombankltd.co.ke
-                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+12</div>
                     </div>
@@ -309,9 +285,6 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Samuel Achando
                         </p>
-                        {/* <p className="text-sm text-muted-foreground">
-                          Samuel.Achando@kingdombankltd.co.ke
-                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+9</div>
                     </div>
@@ -324,9 +297,6 @@ export default function Dashboard() {
                         <p className="text-sm font-medium leading-none">
                           Sebastian Gachau
                         </p>
-                        {/* <p className="text-sm text-muted-foreground">
-                          Sebastian.Gachau@@kingdombankltd.co.ke
-                        </p> */}
                       </div>
                       <div className="ml-auto font-medium">+11</div>
                     </div>

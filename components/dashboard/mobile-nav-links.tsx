@@ -1,10 +1,9 @@
 "use client"
 import { usePathname } from "next/navigation"
-import clsx from "clsx"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "../ui/button"
-import { PanelLeft, Package2, Home, ShoppingCart, Package, Users2, LineChart, Search, Settings } from "lucide-react"
+import { PanelLeft, Package2, Home, ShoppingCart, Package, Users2, LineChart,FileSearch, Search, Settings } from "lucide-react"
 import { Input } from "../ui/input"
 import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "../ui/breadcrumb"
 import { Sheet, SheetTrigger, SheetContent } from "../ui/sheet"
@@ -40,25 +39,6 @@ export default function MobileNavigationLinks() {
                   <span className="sr-only">Acme Inc</span>
                 </Link>
 
-                {/* navigation links  */}
-                {/* { links.map((link) => {
-                    const LinkIcon = link.icon
-                    return (
-                        <Link
-                        key={link.name}
-                        href={link.href}
-                        className={clsx(
-                            "flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8",
-                            {
-                                "bg-green-100 text-green-600": pathname === link.href
-                            },
-                        )}
-                        >
-                            <LinkIcon className="size-5" />
-                            <span className="sr-only">{link.name}</span>
-                        </Link>
-                    )
-                })} */}
                 <Link
                   href="#"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
@@ -70,29 +50,29 @@ export default function MobileNavigationLinks() {
                   href="#"
                   className="flex items-center gap-4 px-2.5 text-foreground"
                 >
-                  <ShoppingCart className="h-5 w-5" />
-                  Orders
+                  <FileSearch className="h-5 w-5" />
+                  Search
                 </Link>
                 <Link
                   href="#"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <Package className="h-5 w-5" />
-                  Products
+                  Files
                 </Link>
                 <Link
                   href="#"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <Users2 className="h-5 w-5" />
-                  Customers
+                  Users
                 </Link>
                 <Link
                   href="#"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <LineChart className="h-5 w-5" />
-                  Settings
+                  Analytics
                 </Link>
               </nav>
             </SheetContent>

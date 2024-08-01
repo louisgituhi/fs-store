@@ -14,7 +14,7 @@ import {
     Package,
     Package2, 
     Users2, 
-    FileBox,
+    FileSearch,
     LineChart, 
     Settings, 
     Home 
@@ -51,12 +51,11 @@ export default function DesktopNavigationLinks() {
                 href="#"
                 className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
-                <FileBox className="h-5 w-5" />
-                {/* <ShoppingCart className="h-5 w-5" /> */}
-                <span className="sr-only">Views</span>
+                <FileSearch className="h-5 w-5" />
+                <span className="sr-only">Search</span>
               </Link>
             </TooltipTrigger>
-            <TooltipContent side="right">Views</TooltipContent>
+            <TooltipContent side="right">Search</TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
