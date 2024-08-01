@@ -1,6 +1,4 @@
 "use client"
-import clsx from "clsx";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 // ui components 
@@ -16,7 +14,7 @@ import {
     Package,
     Package2, 
     Users2, 
-    ShoppingCart, 
+    FileBox,
     LineChart, 
     Settings, 
     Home 
@@ -53,7 +51,8 @@ export default function DesktopNavigationLinks() {
                 href="#"
                 className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
               >
-                <ShoppingCart className="h-5 w-5" />
+                <FileBox className="h-5 w-5" />
+                {/* <ShoppingCart className="h-5 w-5" /> */}
                 <span className="sr-only">Views</span>
               </Link>
             </TooltipTrigger>
