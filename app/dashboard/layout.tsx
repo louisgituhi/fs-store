@@ -5,9 +5,9 @@ import Cards from "@/components/ui/dashboard/cards"
 import RecentFiles from "@/components/ui/dashboard/recent-accounts"
 import Filers from "@/components/ui/dashboard/filers"
 
-export default function({ children }: { children: React.ReactNode}) {
-    return (
-            <TooltipProvider>
+const DashLayput = ({ children }: {children: React.ReactNode}) => {
+    return ( 
+        <TooltipProvider>
                 <div className="flex min-h-screen w-full flex-col bg-muted/40 font-sans">
                     <DesktopNavigationLinks />
                         <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-14">
@@ -22,5 +22,7 @@ export default function({ children }: { children: React.ReactNode}) {
                         </div>
                 </div>
             </TooltipProvider>
-    )
+     );
 }
+ 
+export default DashLayput;
