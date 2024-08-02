@@ -2,12 +2,7 @@
 import Link from "next/link";
 
 // ui components 
-import { 
-    Tooltip,
-    TooltipTrigger,
-    TooltipContent,
-    TooltipProvider,
- } from "../ui/tooltip";
+import { Tooltip,TooltipTrigger,TooltipContent,TooltipProvider} from "../tooltip";
 
 // icons
 import { 

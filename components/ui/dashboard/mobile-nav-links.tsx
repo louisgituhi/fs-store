@@ -2,12 +2,12 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
-import { Button } from "../ui/button"
+import { Button } from "../button"
 import { PanelLeft, Package2, Home, ShoppingCart, Package, Users2, LineChart,FileSearch, Search, Settings } from "lucide-react"
-import { Input } from "../ui/input"
-import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "../ui/breadcrumb"
-import { Sheet, SheetTrigger, SheetContent } from "../ui/sheet"
-import { DropdownMenu, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuContent, DropdownMenuLabel, DropdownMenuTrigger } from "../ui/dropdown-menu"
+import { Input } from "../input"
+import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "../breadcrumb"
+import { Sheet, SheetTrigger, SheetContent } from "../sheet"
+import { DropdownMenu, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuContent, DropdownMenuLabel, DropdownMenuTrigger } from "../dropdown-menu"
 
 const links = [
     {name: "Dashboard", href: "/dashboard", icon: Home },
