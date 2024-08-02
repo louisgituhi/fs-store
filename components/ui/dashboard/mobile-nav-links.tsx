@@ -5,21 +5,11 @@ import Image from "next/image"
 import { Button } from "../button"
 import { PanelLeft, Package2, Home, ShoppingCart, Package, Users2, LineChart,FileSearch, Search, Settings } from "lucide-react"
 import { Input } from "../input"
-import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "../breadcrumb"
 import { Sheet, SheetTrigger, SheetContent } from "../sheet"
 import { DropdownMenu, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuContent, DropdownMenuLabel, DropdownMenuTrigger } from "../dropdown-menu"
-
-const links = [
-    {name: "Dashboard", href: "/dashboard", icon: Home },
-    {name: "Products", href: "/dashboard/products", icon: Package },
-    {name: "Customers", href: "/dashboard/customers", icon: Users2 },
-    {name: "Analytics", href: "/analytics/analytics",icon: LineChart},
-    {name: "Orders", href: "/dashboard/Orders", icon: ShoppingCart},
-    {name: "Settings", href: "/dashboard/settings", icon: Settings}
-]
+import BreadcrumbComponent from "./bread-crumb";
 
 export default function MobileNavigationLinks() {
-    const pathname = usePathname();
     return (
         <header className="sticky top-0 z-30 flex h-14 items-center gap-4 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6">
           <Sheet>
@@ -77,25 +67,9 @@ export default function MobileNavigationLinks() {
               </nav>
             </SheetContent>
           </Sheet>
-          <Breadcrumb className="hidden md:flex">
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link href="#">Dashboard</Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbLink asChild>
-                  <Link href="#">Files</Link>
-                </BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbPage>Recent Files</BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
+
+          <BreadcrumbComponent />
+
           <div className="relative ml-auto flex-1 md:grow-0">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
             <Input

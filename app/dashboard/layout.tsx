@@ -1,5 +1,4 @@
 import { TooltipProvider} from "@/components/ui/tooltip"
-  
 import DesktopNavigationLinks from "@/components/ui/dashboard/desktop-nav-links"
 import MobileNavigationLinks from "@/components/ui/dashboard/mobile-nav-links"
 import Cards from "@/components/ui/dashboard/cards"
