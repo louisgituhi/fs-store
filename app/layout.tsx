@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "fs-store",
-  description: "Gbun an nextjs under the hood",
+  description: "bun and nextjs under the hood",
 };
 
 export default function RootLayout({
