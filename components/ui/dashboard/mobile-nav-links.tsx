@@ -1,5 +1,4 @@
 "use client"
-import { usePathname } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "../button"
@@ -30,35 +29,35 @@ export default function MobileNavigationLinks() {
                 </Link>
 
                 <Link
-                  href="#"
+                  href="/dashboard"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <Home className="h-5 w-5" />
                   Dashboard
                 </Link>
                 <Link
-                  href="#"
+                  href="/dashboard/search"
                   className="flex items-center gap-4 px-2.5 text-foreground"
                 >
                   <FileSearch className="h-5 w-5" />
                   Search
                 </Link>
                 <Link
-                  href="#"
+                  href="/dashboard/files"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <Package className="h-5 w-5" />
                   Files
                 </Link>
                 <Link
-                  href="#"
+                  href="/dashboard/users"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <Users2 className="h-5 w-5" />
                   Users
                 </Link>
                 <Link
-                  href="#"
+                  href="/dashboard/analytics"
                   className="flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground"
                 >
                   <LineChart className="h-5 w-5" />
